@@ -10,4 +10,5 @@ return car}
 function prependDriver (name) {var car = drivers.slice()
 car.unshift(name)
 return car}
-function 
+function removeLastDriver (name) {var car = drivers.slice()
+car.
