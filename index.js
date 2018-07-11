@@ -13,3 +13,5 @@ return car}
 function removeLastDriver (name) {var car = drivers.slice()
 car.pop(name)
 return car}
+function removeFirstDriver (name) {var car = drivers.slice()
+car.
