@@ -8,5 +8,5 @@ function appendDriver (name) {var car = drivers.slice()
 car.push(name)
 return car}
 function prependDriver (name) {var car = drivers.slice()
-car.push(name)
+car.unshift(name)
 return car}
