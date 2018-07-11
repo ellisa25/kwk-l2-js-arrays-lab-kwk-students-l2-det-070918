@@ -4,4 +4,6 @@ function destructivelyAppendDriver (name) {drivers.push(name);}
 function destructivelyPrependDriver (name) {drivers.unshift(name);}
 function destructivelyRemoveLastDriver (name) {drivers.pop(name);}
 function destructivelyRemoveFirstDriver (name) {drivers.shift(name);}
-function 
+function appendDriver (name) {var car = drivers.slice()
+car.push(name)
+return car
